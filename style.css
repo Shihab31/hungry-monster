@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #EDD263;
+}
+/* menu css here*/
+.header, 
+a.navbar-brand{
+    color:#3B2D64;
+    font-weight: 700;
+    font-size: 18px;
+}
+.header,
+.navbar-nav,
+li.nav-item a
+ {
+    font-weight:500;
+    color:#3B2D64;
+    
+} 
+.navbar-nav .nav-link
+ .navbar-nav .nav-link:hover {
+    background:#3B2D64;
+}
+
+/* Form box css style here */
+.form-box {
+    display: flex;
+    width: 50%;
+    margin-top: 50px;
+}
+.input-control,
+.meal-btn
+ {
+    width: 100%;
+}
+.input-control {
+    padding: 10px 5px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: 0;
+}
+.input-control::placeholder {
+    color: #989898;
+    padding-left: 10px;
+}
+.meal-btn {
+    width: 100px;
+    border: none;
+    background-color: #3B2D64;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 5px;
+}
+
+/* meal content css here */
+.meal-area {
+    margin-top: 50px;
+}
+#meal {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+}
+.meal-content {
+    background-color: #fff;
+    border-radius: 10px;
+}
+.meal-img img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.meal-title h3 {
+    font-size: 22px;
+   padding: 20px 0;
+}
+.NotFound {
+    color:#3B2D64;
+    font-size: 20px;
+    background-color:#fff;
+    border-radius: 5px;
+    margin: auto;
+
+}
